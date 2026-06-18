@@ -1,0 +1,33 @@
+# ===== Datasets (too large for GitHub) =====
+dataset/
+hardhat/
+hard-hat-detection/
+images/
+annotations/
+*.zip
+
+# ===== Training outputs =====
+runs/
+
+# ===== Pretrained weights (auto-downloaded) =====
+yolov8*.pt
+yolo11*.pt
+# Note: best.pt is NOT ignored, so it will be uploaded.
+
+# ===== Secrets — NEVER commit =====
+kaggle.json
+*.key
+.env
+
+# ===== Python =====
+venv/
+env/
+__pycache__/
+*.pyc
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
